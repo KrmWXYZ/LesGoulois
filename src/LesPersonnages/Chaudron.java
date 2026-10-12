@@ -14,14 +14,19 @@ public class Chaudron {
 		this.quantitePotion = quantite;
 		this.forcePotion = forcePotion;
 	}
+	
 
-	/*
-	 * public boolean resterPotion() {
-	 * 
-	 * }
-	 * 
-	 * public int prendreLouche() {
-	 * 
-	 * }
-	 */
+	
+	 public boolean resterPotion() {
+		 return true;
+	  }
+	  
+	 public int prendreLouche() {
+		 quantitePotion -- ;
+		 if(quantitePotion==0) {
+			 forcePotion=0;
+		 }
+		 return forcePotion ;
+	  }
+	 
 }
