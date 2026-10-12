@@ -30,6 +30,7 @@ public class Goulois {
 		String nomRomain = romain.getNom();
 		System.out.println(nom + " envoie un grand coup dans la machoire de " + nomRomain);
 		int forceCoup = (force*effetPotion) / 3;
+		romain.recevoirCoup(forceCoup);
 		effetPotion --;
 		if (effetPotion<1) {
 			effetPotion =1;
