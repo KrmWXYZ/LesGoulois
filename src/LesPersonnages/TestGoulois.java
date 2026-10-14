@@ -3,8 +3,8 @@ package LesPersonnages;
 public class TestGoulois {
 	public static void main(String[] args) {
 
-		Goulois goulois1 = new Goulois("Astérix", 3);
-		Goulois goulois2 = new Goulois("Obelix", 3);
+		Gaulois goulois1 = new Gaulois("Astérix", 3);
+		Gaulois goulois2 = new Gaulois("Obelix", 3);
 		Romain romain1 = new Romain("Minus", 3);
 
 		goulois1.parler("Bonjour Obélix.");
