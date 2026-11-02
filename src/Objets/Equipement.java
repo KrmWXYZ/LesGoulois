@@ -9,5 +9,7 @@ public enum Equipement {
 		this.nom = nom;
 	}
 	
-	
+	public String toString() {
+		return nom;
+	}
 }

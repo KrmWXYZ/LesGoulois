@@ -122,7 +122,11 @@ public class Romain {
 		}
 
 	public static void main(String[] args) {
-		Romain romain = new Romain("Minus", 6);
-		romain.recevoirCoup(5);
+		Romain minus = new Romain("Minus", 6);
+		minus.sEquiper(Equipement.CASQUE); 
+		minus.sEquiper(Equipement.CASQUE); 
+		minus.sEquiper(Equipement.BOUCLIER);
+		minus.sEquiper(Equipement.CASQUE); 
+		
 	}
 }
