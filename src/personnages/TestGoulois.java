@@ -1,4 +1,4 @@
-package LesPersonnages;
+package personnages;
 
 public class TestGoulois {
 	public static void main(String[] args) {

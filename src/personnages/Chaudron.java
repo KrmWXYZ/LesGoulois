@@ -1,12 +1,12 @@
-package LesPersonnages;
+package personnages;
 
 public class Chaudron {
 	int quantitePotion;
 	int forcePotion;
 
-	public Chaudron(int quantitéPotion, int forcePotion) {
+	public Chaudron(int quantitePotion, int forcePotion) {
 		super();
-		this.quantitePotion = quantitéPotion;
+		this.quantitePotion = quantitePotion;
 		this.forcePotion = forcePotion;
 	}
 

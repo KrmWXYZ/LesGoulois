@@ -1,14 +1,14 @@
-package LesPersonnages;
+package personnages;
 
 public class Druide {
 	String nom ;
 	int force ;
 	Chaudron chaudron;
 	
-	public Druide(String nom , int foce ,Chaudron chaudron) {
+	public Druide(String nom , int foce) {
 		this.nom=nom;
 		this.force=foce;
-		this.chaudron = chaudron;
+		this.chaudron = new Chaudron(0, 0);
 	}
 	
 	private String prendreParole() {
@@ -19,9 +19,9 @@ public class Druide {
 	System.out.println(prendreParole() + "\"" + texte + "\"");
 	}
 	
-	public void fabriquePotion(int quantité , int forcePotion) {
+	public void fabriquerPotion(int quantité , int forcePotion) {
 		chaudron.remplirChaudron(quantité, forcePotion);
-		parler("J'ai concoté" + quantité + "doses de potion magique . Elle a une force de " + forcePotion+ ".");
+		parler("J'ai concoté " + quantité + " doses de potion magique . Elle a une force de " + forcePotion+ ".");
 	}
 	
 	public void booster(Gaulois goulois) {

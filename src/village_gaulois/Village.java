@@ -1,6 +1,6 @@
-package Village_Goulois;
+package village_gaulois;
 
-import LesPersonnages.Gaulois;
+import personnages.Gaulois;
 
 public class Village {
 	private String nom ;
